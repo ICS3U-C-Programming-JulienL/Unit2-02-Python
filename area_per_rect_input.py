@@ -8,8 +8,8 @@
 def main():
     # get length and width
     print("Calculating the Area and Perimeter of a Rectangle")
-    length = int(input("What is the length of your rectangle?"))
-    width = int(input("What is the width of your rectangle?"))
+    length = int(input("What is the length of your rectangle (cm)?"))
+    width = int(input("What is the width of your rectangle(cm)?"))
 
     # calculate area and perimeter
     area = length * width
